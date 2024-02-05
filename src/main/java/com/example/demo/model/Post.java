@@ -5,6 +5,7 @@ public class Post {
     private Integer likes;
     public Post(String text){
         this.text = text;
+        likes=0;
     }
     public String getText(){
         return text;
